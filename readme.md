@@ -1,6 +1,6 @@
 # tinyply 2.3
 
-[![Release is 2.3.2](http://img.shields.io/badge/release-2.3.2-blue.svg?style=flat)](https://raw.githubusercontent.com/ddiakopoulos/tinyply/master/source/tinyply.h)
+[![Release is 2.3.3](http://img.shields.io/badge/release-2.3.3-blue.svg?style=flat)](https://raw.githubusercontent.com/ddiakopoulos/tinyply/master/source/tinyply.h)
 [![License is Unlicense](http://img.shields.io/badge/license-Unlicense-blue.svg?style=flat)](http://unlicense.org/)
 
 Platform | Build Status |
@@ -21,11 +21,13 @@ The project comes with a simple example program demonstrating a circular write /
 
 Since 2015, tinyply has been used in hundreds of open-source projects including pointcloud tools, raytracers, synthetic data renderers, computational geometry libraries, and more. A few notable projects are highlighted below: 
 
+* [libigl](https://libigl.github.io/), a robust computational geometry library from UoT professors Alec Jacobson and Daniele Panozzo.
 * [Maplab](https://github.com/ethz-asl/maplab) from ETH Zürich, a research-oriented visual-inertial mapping framework. 
 * [glChAoS.P](https://github.com/BrutPitt/glChAoS.P) from Michele Morrone, a rendering sandbox for 3D strange attractors.
 * [Cilantro](https://github.com/kzampog/cilantro), a robust and featureful C++ library for working with pointcloud data. 
 * [HabitatAI](https://aihabitat.org/), Facebook's 3D simulator for training AI agents in photorealistic environments.
 * [ScanNet](http://www.scan-net.org/), an RGB+D dataset of 2.5 million views across 1500 scans.
+* [PlaneRCNN](https://github.com/NVlabs/planercnn), 3D plane detection via single-shot images from NVIDIA Research
 * [KNOSSOS](https://knossos.app/), a framework to visualize and annotate 3D image data (neural morphology and connectivity). 
 
 tinyply not what you're looking for? tinyply trades some performance for simplicity and flexibility. For domain-specific uses (e.g. where your application does not need to handle arbitrary user-fed PLY files), there are other speedier alternatives. For more, please check out the following benchmarks:
